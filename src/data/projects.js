@@ -1,3 +1,8 @@
+import interviewImage from '../assets/interview.png'
+import shopSphereImage from '../assets/e-comm.png'
+import atithiImage from '../assets/atithi.png'
+import studyPlannerImage from '../assets/study.png'
+
 export const projects = [
   {
     title: 'INTERVIEW IQ',
@@ -10,7 +15,7 @@ export const projects = [
     github: 'https://github.com/khushi375/Interview',
     live: 'https://interviewiq-client-md3a.onrender.com/',
     status: 'AI Practice',
-    image: 'src/assets/interview.png',
+    image: interviewImage,
   },
   {
     title: 'ShopSphereX',
@@ -23,7 +28,7 @@ export const projects = [
     github: 'https://github.com/khushi375/shopsphere-ecommerce',
     live: 'https://shopsphere-x.netlify.app',
     status: 'Live Demo',
-    image: 'src/assets/e-comm.png',
+    image: shopSphereImage,
   },
   {
     title: 'ATITHI',
@@ -36,7 +41,7 @@ export const projects = [
     github: 'https://github.com/khushi375/atithi',
     live: 'https://atithi-tours.netlify.app',
     status: 'Live Demo',
-    image: 'src/assets/atithi.png',
+    image: atithiImage,
   },
   {
     title: 'AI Study Planner',
@@ -49,6 +54,6 @@ export const projects = [
     github: 'https://github.com/Sneha629/AI_Study_Planner',
     live: 'https://ai-study-planner-one-liart.vercel.app',
     status: 'Learning Platform',
-    image: 'src/assets/study.png',
+    image: studyPlannerImage,
   },
 ]

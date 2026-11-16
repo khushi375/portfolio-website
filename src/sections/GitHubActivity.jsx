@@ -1,6 +1,7 @@
 import { ArrowRight, Link2 } from 'lucide-react'
 import { FaGithub } from 'react-icons/fa'
 import SectionHeading from '../components/SectionHeading'
+import profileImage from '../assets/profile-portrait.png'
 
 const repositories = [
   { name: 'InterviewIQ', href: 'https://github.com/khushi375/Interview' },
@@ -45,7 +46,7 @@ export default function GitHubActivity() {
 
             <div className="mt-8 overflow-hidden rounded-[24px] border border-white/10 bg-slate-900/70">
               <img
-                src="src/assets/profile-portrait.png"
+                src={profileImage}
                 alt="Khushi Jain portrait"
                 className="h-28 w-full max-w-full object-cover object-center"
               />

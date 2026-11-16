@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { SiLeetcode } from 'react-icons/si'
 import Button from '../components/Button'
+import profileImage from '../assets/Professional.png'
 
 const roles = ['Full Stack Developer', 'AI Enthusiast', 'Software Engineer', 'Problem Solver']
 
@@ -118,7 +119,7 @@ export default function Hero() {
                 <div className="absolute inset-3 rounded-full border border-white/10" />
                 <div className="absolute inset-8 rounded-full border border-violet-300/30" />
                 <img
-                  src="src/assets/Professional.png"
+                  src={profileImage}
                   alt="Khushi Jain portrait"
                   className="h-full w-full rounded-full object-cover object-center ring-2 ring-violet-300/30 ring-offset-2 ring-offset-slate-950/70"
                 />

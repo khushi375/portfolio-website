@@ -1,0 +1,30 @@
+<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="90" x2="700" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09111D"/>
+      <stop offset="0.45" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="glowA" x1="200" y1="140" x2="590" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="900" fill="url(#bg)"/>
+  <circle cx="400" cy="320" r="250" fill="url(#glowA)"/>
+  <rect x="150" y="170" width="500" height="500" rx="36" fill="#0F172A" fill-opacity="0.8" stroke="#93C5FD" stroke-opacity="0.45"/>
+
+  <path d="M265 610C280 520 323 470 400 470C477 470 520 520 535 610V740H265V610Z" fill="#172554"/>
+  <path d="M248 635C262 560 306 520 400 520C494 520 538 560 552 635L580 740H220L248 635Z" fill="#111827"/>
+
+  <circle cx="400" cy="320" r="120" fill="#F6D7BF"/>
+  <path d="M308 280C305 216 350 170 400 170C450 170 495 216 492 280C487 233 456 208 400 208C344 208 314 233 308 280Z" fill="#0F172A"/>
+  <path d="M320 290C348 263 376 248 400 248C424 248 452 263 480 290" stroke="#0F172A" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="363" cy="320" r="10" fill="#0F172A"/>
+  <circle cx="437" cy="320" r="10" fill="#0F172A"/>
+  <path d="M365 360C385 382 415 382 435 360" stroke="#B76E52" stroke-width="12" stroke-linecap="round"/>
+
+  <rect x="280" y="650" width="240" height="18" rx="9" fill="#A78BFA" fill-opacity="0.7"/>
+  <rect x="330" y="694" width="140" height="18" rx="9" fill="#67E8F9" fill-opacity="0.7"/>
+</svg>

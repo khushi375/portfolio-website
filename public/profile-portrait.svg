@@ -1,0 +1,37 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="140" y1="120" x2="760" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0B1120"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 220) rotate(90) scale(230 230)">
+      <stop stop-color="#A78BFA" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(620 260) rotate(90) scale(260 260)">
+      <stop stop-color="#67E8F9" stop-opacity="0.66"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="900" rx="450" fill="url(#bg)"/>
+  <circle cx="300" cy="220" r="230" fill="url(#glow1)"/>
+  <circle cx="620" cy="260" r="260" fill="url(#glow2)"/>
+
+  <path d="M660 760C650 620 600 520 510 470C476 451 440 440 390 440C298 440 236 498 202 610C176 696 192 760 220 820H660V760Z" fill="#1E293B" fill-opacity="0.78"/>
+
+  <ellipse cx="450" cy="332" rx="148" ry="172" fill="#F2D2B9"/>
+  <path d="M322 332C322 222 375 142 459 142C540 142 596 215 596 330C596 340 595 350 593 360C581 311 545 230 458 230C394 230 343 283 322 332Z" fill="#111827"/>
+  <path d="M354 328C354 226 393 160 458 160C527 160 575 232 575 328C575 346 572 363 566 378C543 343 514 316 460 316C414 316 383 338 354 328Z" fill="#0F172A"/>
+
+  <circle cx="394" cy="350" r="12" fill="#111827"/>
+  <circle cx="514" cy="350" r="12" fill="#111827"/>
+  <path d="M420 424C450 448 492 448 520 424" stroke="#B76E52" stroke-width="12" stroke-linecap="round"/>
+  <path d="M388 390C415 408 439 414 455 414C470 414 489 408 514 390" stroke="#E9A88D" stroke-width="10" stroke-linecap="round"/>
+
+  <path d="M430 432L402 470C387 492 383 518 385 548C388 585 425 620 470 620C528 620 570 568 572 512C574 484 570 463 555 442L538 430L430 432Z" fill="#A78BFA" fill-opacity="0.22"/>
+
+  <circle cx="450" cy="450" r="320" stroke="url(#glow2)" stroke-opacity="0.28" stroke-width="3"/>
+  <circle cx="450" cy="450" r="350" stroke="url(#glow1)" stroke-opacity="0.22" stroke-width="2"/>
+</svg>

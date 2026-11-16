@@ -12,12 +12,10 @@ export default function Projects() {
           description="Selected work combining product thinking, AI-assisted experiences, and modern full-stack engineering."
         />
 
-        <div className="mt-12 overflow-x-auto pb-4">
-          <div className="grid auto-cols-[minmax(280px,1fr)] grid-flow-col gap-8 xl:auto-cols-auto xl:grid-cols-4">
-            {projects.map((project, index) => (
-              <ProjectCard key={project.title} project={project} index={index} />
-            ))}
-          </div>
+        <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          {projects.map((project, index) => (
+            <ProjectCard key={project.title} project={project} index={index} />
+          ))}
         </div>
       </div>
     </section>

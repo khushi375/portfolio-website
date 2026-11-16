@@ -42,9 +42,9 @@ export default function Navbar() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50">
-      <div className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-3 pt-3 sm:px-6 sm:pt-4 lg:px-8">
         <nav
-          className={`rounded-full border px-4 py-3 backdrop-blur-xl transition-all duration-300 ${
+          className={`rounded-full border px-3 py-2.5 backdrop-blur-xl transition-all duration-300 sm:px-4 sm:py-3 ${
             scrolled
               ? 'border-white/10 bg-slate-950/75 shadow-[0_20px_60px_rgba(2,6,23,0.72)]'
               : 'border-white/10 bg-white/5 shadow-[0_10px_30px_rgba(15,23,42,0.18)]'

@@ -22,15 +22,15 @@ export default function GitHubActivity() {
         />
 
         <div className="mt-12 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-          <div className="rounded-[32px] border border-white/10 bg-[radial-gradient(circle_at_top,_rgba(139,92,246,0.15),transparent_30%),linear-gradient(180deg,#0f172a,#111827)] p-6 shadow-[0_18px_56px_rgba(15,23,42,0.5)]">
-            <div className="flex items-center justify-between gap-4">
-              <div className="flex items-center gap-3">
+          <div className="rounded-[32px] border border-white/10 bg-[radial-gradient(circle_at_top,_rgba(139,92,246,0.15),transparent_30%),linear-gradient(180deg,#0f172a,#111827)] p-4 shadow-[0_18px_56px_rgba(15,23,42,0.5)] sm:p-6">
+            <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <div className="flex min-w-0 items-center gap-3">
                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-violet-400/30 bg-violet-500/10 text-violet-200">
                   <FaGithub size={22} />
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-[0.18em] text-slate-400">Profile</p>
-                  <p className="text-xl font-semibold text-white">github.com/khushi375</p>
+                  <p className="text-base font-semibold text-white sm:text-xl">github.com/khushi375</p>
                 </div>
               </div>
               <a
@@ -44,7 +44,7 @@ export default function GitHubActivity() {
               </a>
             </div>
 
-            <div className="mt-8 overflow-hidden rounded-[24px] border border-white/10 bg-slate-900/70">
+            <div className="mt-6 overflow-hidden rounded-[24px] border border-white/10 bg-slate-900/70 sm:mt-8">
               <img
                 src={profileImage}
                 alt="Khushi Jain portrait"
@@ -59,7 +59,7 @@ export default function GitHubActivity() {
             </div>
           </div>
 
-          <div className="rounded-[32px] border border-white/10 bg-slate-900/75 p-6 shadow-[0_18px_56px_rgba(15,23,42,0.5)]">
+          <div className="rounded-[32px] border border-white/10 bg-slate-900/75 p-4 shadow-[0_18px_56px_rgba(15,23,42,0.5)] sm:p-6">
             <p className="text-xs uppercase tracking-[0.2em] text-slate-400">Featured work & achievements</p>
             <div className="mt-5 space-y-3">
               {repositories.map((repo) => (
@@ -70,8 +70,8 @@ export default function GitHubActivity() {
                   rel="noreferrer"
                   className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 p-3 text-slate-200 transition hover:border-violet-400/50 hover:text-white"
                 >
-                  <span className="font-medium">{repo.name}</span>
-                  <Link2 size={16} />
+                  <span className="min-w-0 break-words font-medium">{repo.name}</span>
+                  <Link2 size={16} className="shrink-0" />
                 </a>
               ))}
             </div>

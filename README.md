@@ -1,36 +1,148 @@
-# React + Vite
+# Khushi Jain | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive personal portfolio website built to showcase my skills, projects, education, experience, and journey as a Full Stack Developer.
 
-Currently, two official plugins are available:
+🌐 **Live Website:** https://visualsw.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio represents my journey as a Computer Science Engineering student and aspiring Full Stack Developer.
 
-## Expanding the Oxlint configuration
+It brings together my technical skills, development experience, certifications, and projects in one place. The website focuses on a clean user interface, responsive layouts, smooth animations, and an engaging browsing experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Features
 
-## Configure the contact form
+- Modern dark-themed user interface
+- Fully responsive design
+- Interactive hero section
+- About me section
+- Technical skills showcase
+- Education and experience
+- Featured projects
+- Certifications
+- GitHub activity
+- Contact form with EmailJS integration
+- Smooth animations and transitions
 
-The contact form sends messages through EmailJS. Create an EmailJS email service and template, then configure the template to use `{{from_name}}`, `{{reply_to}}`, `{{subject}}`, and `{{message}}`. Set the template's Reply-To field to `{{reply_to}}`.
+## Tech Stack
 
-Create a `.env` file in the project root using `.env.example` as a reference:
+- **Frontend:** React.js, JavaScript, HTML5, CSS3
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Animations:** Framer Motion
+- **3D Graphics:** Three.js, React Three Fiber, Drei
+- **Icons:** Lucide React, React Icons
+- **Email Integration:** EmailJS
+- **Version Control:** Git and GitHub
+- **Deployment:** Netlify
 
-```powershell
-Copy-Item .env.example .env
+## Featured Projects
+
+### 1. Interview IQ
+An AI-powered interview preparation platform designed to help candidates practice interviews and improve their preparation.
+
+**Technologies:** React, Node.js, Express.js, MongoDB, Gemini AI
+
+[GitHub Repository](https://github.com/khushi375/Interview)
+
+### 2. ShopSphereX
+A full-stack e-commerce platform featuring authentication, product browsing, cart, wishlist, checkout, order management, and admin functionality.
+
+**Technologies:** React, Vite, Tailwind CSS, Firebase, Firestore
+
+[Live Demo](https://shopsphere-x.netlify.app/) | [GitHub Repository](https://github.com/khushi375/shopsphere-ecommerce)
+
+### 3. ATITHI
+A MERN-based travel and cab booking website with destination discovery, trip management, booking functionality, and an admin dashboard.
+
+**Technologies:** MongoDB, Express.js, React.js, Node.js
+
+[Live Demo](https://atithi-tours.netlify.app/) | [GitHub Repository](https://github.com/khushi375/atithi)
+
+### 5. AI Study Planner
+A collaborative learning platform featuring flashcards, exam planning, progress tracking, shared decks, and AI-powered quiz generation.
+
+**Technologies:** React, Node.js, Express.js, MongoDB, Gemini AI
+
+[GitHub Repository](https://github.com/Sneha629/AI_Study_Planner)
+
+## Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/khushi375/portfolio-website.git
 ```
 
-Replace the example values in `.env` with the values from your EmailJS account:
+**2. Navigate to the project directory**
 
-```text
-VITE_EMAILJS_SERVICE_ID=your_emailjs_service_id
-VITE_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
-VITE_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+```bash
+cd portfolio-website
 ```
 
-Restart the Vite development server after changing environment variables. For deployment, add the same variables to the hosting provider's environment settings before building. Vite exposes `VITE_` variables in the browser bundle, so use only the EmailJS **public key** here; never put an EmailJS private key in frontend code or environment variables prefixed with `VITE_`.
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Configure environment variables**
+
+Create a `.env` file in the root directory and add your EmailJS credentials:
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+Never commit your actual `.env` file or expose credentials publicly.
+
+**5. Start the development server**
+
+```bash
+npm run dev
+```
+
+**6. Build for production**
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This project is deployed using Netlify.
+
+To deploy your own version:
+
+1. Push the repository to GitHub.
+2. Connect the repository to Netlify.
+3. Set the build command to `npm run build`.
+4. Set the publish directory to `dist`.
+5. Add the required environment variables.
+6. Deploy the website.
+
+## Contact
+
+**Khushi Jain**
+
+- GitHub: https://github.com/khushi375
+- LinkedIn: https://www.linkedin.com/in/khushi-jain-b28789323/
+- Portfolio: https://visualsw.netlify.app/
+
+---
+
+**Built with ❤️ by Khushi Jain**
